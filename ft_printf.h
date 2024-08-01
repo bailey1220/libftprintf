@@ -6,7 +6,7 @@
 /*   By: bachai <bachai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/30 11:38:04 by bachai            #+#    #+#             */
-/*   Updated: 2024/07/30 11:50:40 by bachai           ###   ########.fr       */
+/*   Updated: 2024/08/01 10:37:22 by bachai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,9 @@
 # define FT_PRINTF_H
 
 # include <stdarg.h>
-# include <limits.h>
 # include <unistd.h>
-# include <string.h>
 # include <stdlib.h>
-# include <stdbool.h>
 # include <stdio.h>
-# include <string.h>
 # include <stdint.h>
 
 int		ft_printf(const char *str, ...);

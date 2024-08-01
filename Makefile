@@ -5,7 +5,7 @@ SRC = 	ft_printf.c \
 
 NAME	= libftprintf.a
 
-CC		= gcc
+COMPILER	= cc
 CFLAGS	= -Wall -Werror -Wextra
 
 AR		= ar rcs
